@@ -1,25 +1,30 @@
-# Contributing
-## General notes
-When contributing to this repository, if your changes are subjective, controversial or people are likely to have
-polarized opinions on this matter, please first discuss the change you wish to make via issue with the owners of
-this repository.
+# Вклад в проект
 
-We welcome adding new algorithms and data structures that were mentioned in books or other reputable sources.
-We also welcome fixing bugs in code, clarifying documentation and adding new test cases to check existing code.
-The framework targeted by our code is **dotnet 8**. The corresponding SDK can be found [here](https://dotnet.microsoft.com/download/dotnet/8.0).
+## Общие замечания
 
-Please note that we have a code of conduct, please follow it in all your interactions with the project.
+При внесении изменений в этот репозиторий, если ваши изменения носят субъективный, спорный характер или могут вызвать
+полярные мнения по этому вопросу, пожалуйста, сначала обсудите желаемое изменение с владельцами этого репозитория, создав соответствующую проблему (issue).
 
-## Files
-For adding new algorithms, please ensure to name the cs-files corresponding to the classname, e.g. `Factorial.cs` for the class `Factorial` and add them to the most relevant pre-existing folder. Make sure to implement tests for all public methods. These tests should be added in a separate cs-file to the corresponding folder in `Algorithms.Tests` and have their classname ending in "Test", e.g. `FactorialTest`.
+Мы приветствуем добавление новых алгоритмов и структур данных, упомянутых в книгах или других авторитетных источниках.
+Мы также приветствуем исправление ошибок в коде, уточнение документации и добавление новых тестовых случаев для проверки существующего кода.
+В качестве фреймворка для нашего кода используется **dotnet 8**. Соответствующий SDK можно найти [здесь](https://dotnet.microsoft.com/download/dotnet/8.0).
 
-## Tests
-We use the [NUnit-library](https://nunit.org/) for testing. Instructions for the installation for local testing can be found [here](https://docs.nunit.org/articles/nunit/getting-started/installation.html). A basic test can be implemented by adding the attribute `[Test]` in front of the method performing the test and including an Assert-statement within the method, e.g. `Assert.AreEqual(result, 42)`. If possible, please use [FluentAssertions](https://fluentassertions.com/) since they are more eloquent and readable. Some of the basic assertions can be found [here](https://fluentassertions.com/basicassertions/). For getting familiar with the Nunit-tests, it might be helpful to have a look at some existing test-files. A tutorial explaining how to implement and run NUnit-tests can be found [here](https://www.c-sharpcorner.com/article/introduction-to-nunit-testing-framework/).
+Обратите внимание, что у нас есть кодекс поведения, пожалуйста, соблюдайте его во всех ваших взаимодействиях с проектом.
 
-## Automatic checks
-One of the automatic checks we use is [codecov](https://about.codecov.io/). It checks whether each conditional branch is covered by a test. So if a method contains a conditional statement or operator (if-else, switch, ?: ) then there should be at least a test per branch (unless all the branches can be covered in one run).
+## Файлы
 
-The coding style follows the default code formatter of Visual Studio.
+Для добавления новых алгоритмов, пожалуйста, убедитесь, что файлы .cs названы в соответствии с именем класса, например, `Factorial.cs` для класса `Factorial`, и добавьте их в наиболее подходящую существующую папку. Убедитесь, что для всех публичных методов реализованы тесты. Эти тесты должны быть добавлены в отдельный файл .cs в соответствующую папку в `Algorithms.Tests`, и их имена классов должны заканчиваться на "Test", например, `FactorialTest`.
 
-## Comments
-Please use the [XML documentation features](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/xmldoc/how-to-use-the-xml-documentation-features) for comments. The comments should include a summary of the class/method and an explanation of the different parameters and of the return value. Including a link to Wikipedia or to another source of information on the algorithm is encouraged.
+## Тесты
+
+Для тестирования мы используем [библиотеку NUnit](https://nunit.org/). Инструкции по установке для локального тестирования можно найти [здесь](https://docs.nunit.org/articles/nunit/getting-started/installation.html). Базовый тест можно реализовать, добавив атрибут `[Test]` перед методом, выполняющим тест, и включив в метод оператор Assert, например, `Assert.AreEqual(result, 42)`. По возможности используйте [FluentAssertions](https://fluentassertions.com/), поскольку они более информативны и читаемы. Некоторые из базовых утверждений можно найти [здесь](https://fluentassertions.com/basicassertions/). Для ознакомления с тестами NUnit может быть полезно взглянуть на некоторые существующие тестовые файлы. Учебное пособие, объясняющее, как реализовать и запустить NUnit-тесты, можно найти [здесь](https://www.c-sharpcorner.com/article/introduction-to-nunit-testing-framework/).
+
+## Автоматические проверки
+
+Одна из автоматических проверок, которую мы используем, — это [codecov](https://about.codecov.io/). Она проверяет, покрывается ли каждая условная ветвь тестом. Таким образом, если метод содержит условное выражение или оператор (if-else, switch, ?: ), то для каждой ветви должен быть как минимум один тест (если только все ветви не могут быть покрыты за один запуск).
+
+Стиль кодирования соответствует стандартному форматировщику кода Visual Studio.
+
+## Комментарии
+
+Пожалуйста, используйте [функции документации XML](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/xmldoc/how-to-use-the-xml-documentation-features) для комментариев. Комментарии должны включать краткое описание класса/метода, объяснение различных параметров и возвращаемого значения. Рекомендуется также включить ссылку на Википедию или другой источник информации об алгоритме.
