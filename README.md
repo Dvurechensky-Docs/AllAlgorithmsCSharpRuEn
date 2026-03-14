@@ -92,8 +92,6 @@
 
 - [Algorithms](./Algorithms)
 
----
-
 ## Криптография
 
 ### Padding (добавление выравнивания блоков)
@@ -111,16 +109,12 @@
     - [Ascon Hash Digest](./Algorithms/Crypto/Digests/AsconDigest.cs)
     - [MD2 Digest](./Algorithms/Crypto/Digests/Md2Digest.cs)
 
----
-
 ## Сжатие данных
 
 - [Data Compression](./Algorithms/DataCompression)
     - [Burrows-Wheeler transform](./Algorithms/DataCompression/BurrowsWheelerTransform.cs)
     - [Huffman Compressor](./Algorithms/DataCompression/HuffmanCompressor.cs)
     - [Shannon-Fano Compressor](./Algorithms/DataCompression/ShannonFanoCompressor.cs)
-
----
 
 ## Кодировщики и шифры
 
@@ -133,8 +127,6 @@
     - [Feistel](./Algorithms/Encoders/FeistelCipher.cs)
     - [Blowfish](./Algorithms/Encoders/BlowfishEncoder.cs)
     - [Autokey](./Algorithms/Encoders/AutokeyEncoder.cs)
-
----
 
 ## Алгоритмы графов
 
@@ -152,21 +144,15 @@
 - [BreadthFirstSearch](./Algorithms/Graph/BreadthFirstSearch.cs)
 - [DepthFirstSearch](./Algorithms/Graph/DepthFirstSearch.cs)
 
----
-
 ### Алгоритмы кратчайших путей
 
 - [Dijkstra Shortest Path](./Algorithms/Graph/Dijkstra/DijkstraAlgorithm.cs)
 - [FloydWarshall](./Algorithms/Graph/FloydWarshall.cs)
 
----
-
 ### Алгоритмы анализа графов
 
 - [Kosaraju](./Algorithms/Graph/Kosaraju.cs)
 - [Topological Sort](./Algorithms/Graph/TopologicalSort.cs)
-
----
 
 ## Задача рюкзака
 
@@ -196,16 +182,12 @@
 - [Eigenvalue](./Algorithms/LinearAlgebra/Eigenvalue)
     - [Power Iteration](./Algorithms/LinearAlgebra/Eigenvalue/PowerIteration.cs)
 
----
-
 ## Модульная арифметика
 
 - [Modular Arithmetic](./Algorithms/ModularArithmetic)
     - [Chinese Remainder Theorem](./Algorithms/ModularArithmetic/ChineseRemainderTheorem.cs)
     - [Extended Euclidean Algorithm](./Algorithms/ModularArithmetic/ExtendedEuclideanAlgorithm.cs)
     - [Modular Multiplicative Inverse](./Algorithms/ModularArithmetic/ModularMultiplicativeInverse.cs)
-
----
 
 ## Численные алгоритмы
 
@@ -216,21 +198,15 @@
     - [Amicable Numbers Checker](./Algorithms/Numeric/AmicableNumbersChecker.cs)
     - [Ceil](./Algorithms/Numeric/Ceil.cs)
 
----
-
 ### Разложения
 
 - [Decomposition](./Algorithms/Numeric/Decomposition)
     - [LU Decomposition](./Algorithms/Numeric/Decomposition/LU.cs)
     - [Thin Singular Vector Decomposition](./Algorithms/Numeric/Decomposition/ThinSVD.cs)
 
----
-
 ### Округление
 
 - [Floor](./Algorithms/Floor.cs)
-
----
 
 ### Наибольший общий делитель
 
@@ -238,14 +214,10 @@
     - [Euclidean GCD](./Algorithms/Numeric/GreatestCommonDivisor/EuclideanGreatestCommonDivisorFinder.cs)
     - [Binary GCD](./Algorithms/Numeric/GreatestCommonDivisor/BinaryGreatestCommonDivisorFinder.cs)
 
----
-
 ### Факторизация
 
 - [Factorization](./Algorithms/Numeric/Factorization)
     - [Trial division Factorization](./Algorithms/Numeric/Factorization/TrialDivisionFactorizer.cs)
-
----
 
 ### Степени и ряды
 
@@ -256,13 +228,9 @@
 - [Series](./Algorithms/Numeric/Series)
     - [Maclaurin Series](./Algorithms/Numeric/Series/Maclaurin.cs)
 
----
-
 ### Алгебраические методы
 
 - [Gauss-Jordan Elimination](./Algorithms/Numeric/GaussJordanElimination.cs)
-
----
 
 ### Комбинаторика и числа
 
@@ -270,13 +238,9 @@
 - [Factorial](./Algorithms/Numeric/Factorial.cs)
 - [Keith Number Checker](./Algorithms/Numeric/KeithNumberChecker.cs)
 
----
-
 ### Псевдообратная матрица
 
 - [Pseudo-Inverse](./Algorithms/Numeric/Pseudoinverse/PseudoInverse.cs)
-
----
 
 ### Специальные числа
 
@@ -285,20 +249,14 @@
 - [Perfect Number Checker](./Algorithms/Numeric/PerfectNumberChecker.cs)
 - [Perfect Square Checker](./Algorithms/Numeric/PerfectSquareChecker.cs)
 
----
-
 ### Численные методы
 
 - [Euler Method](./Algorithms/Numeric/EulerMethod.cs)
 - [Classic Runge-Kutta Method](./Algorithms/Numeric/RungeKuttaMethod.cs)
 
----
-
 ### Проверка простоты
 
 - [Miller-Rabin primality check](./Algorithms/Numeric/MillerRabinPrimalityChecker.cs)
-
----
 
 ### Другие числовые алгоритмы
 
@@ -308,14 +266,10 @@
 - [Newton's Square Root Calculation](./Algorithms/NewtonSquareRoot.cs)
 - [SoftMax Function](./Algorithms/Numeric/SoftMax.cs)
 
----
-
 ## Системы рекомендаций
 
 - [RecommenderSystem](./Algorithms/RecommenderSystem)
     - [CollaborativeFiltering](./Algorithms/RecommenderSystem/CollaborativeFiltering)
-
----
 
 ## Машинное обучение
 
@@ -323,8 +277,6 @@
     - [Linear Regression](./Algorithms/MachineLearning/LinearRegression.cs)
     - [K-Nearest Neighbors](./Algorithms/MachineLearning/KNearestNeighbors.cs)
     - [Logistic Regression](./Algorithms/MachineLearning/LogisticRegression.cs)
-
----
 
 ## Алгоритмы поиска
 
@@ -359,8 +311,6 @@
     - [Merge Sort](./Algorithms/Sorters/Comparison/MergeSorter.cs)
     - [Pancake Sort](./Algorithms/Sorters/Comparison/PancakeSorter.cs)
 
----
-
 ### Быстрая сортировка
 
 - [Quick Sort](./Algorithms/Sorters/Comparison/QuickSorter.cs)
@@ -371,8 +321,6 @@
 - [Middle point pivot](./Algorithms/Sorters/Comparison/MiddlePointQuickSorter.cs)
 - [Random pivot](./Algorithms/Sorters/Comparison/RandomPivotQuickSorter.cs)
 
----
-
 ### Дополнительные алгоритмы сортировки
 
 - [Selection Sort](./Algorithms/Sorters/Comparison/SelectionSorter.cs)
@@ -380,14 +328,10 @@
 - [Tim Sort](./Algorithms/Sorters/Comparison/TimSorter.cs)
 - [Simplified Tim Sort](./Algorithms/Sorters/Comparison/BasicTimSorter.cs)
 
----
-
 ### Внешняя сортировка
 
 - [External](./Algorithms/Sorters/External)
     - [Merge Sort](./Algorithms/Sorters/External/ExternalMergeSorter.cs)
-
----
 
 ### Сортировки целых чисел
 
@@ -396,14 +340,10 @@
     - [Bucket Sort](./Algorithms/Sorters/Integer/BucketSorter.cs)
     - [Radix Sort](./Algorithms/Sorters/Integer/RadixSorter.cs)
 
----
-
 ### Сортировки строк
 
 - [String](./Algorithms/Sorters/String)
     - [MSD Radix Sort](./Algorithms/Sorters/String/MsdRadixStringSorter.cs)
-
----
 
 ## Перемешивание (Shuffling)
 
@@ -458,16 +398,12 @@
     - [A019434 Fermat Primes](./Algorithms/Sequences/FermatPrimesSequence.cs)
     - [A181391 Van Eck's](./Algorithms/Sequences/VanEcksSequence.cs)
 
----
-
 ## Алгоритмы работы со стеком
 
 - [Stack](./Algorithms/Stack)
     - [Next Greater Element](./Algorithms/Stack/NextGreaterElement.cs)
     - [Balanced Parentheses Checker](./Algorithms/Stack/BalancedParenthesesChecker.cs)
     - [Reverse Stack](./Algorithms/Stack/ReverseStack.cs)
-
----
 
 ## Алгоритмы для строк
 
@@ -501,8 +437,6 @@
 - [Palindrome Checker](./Algorithms/Strings/Palindrome.cs)
 - [Get all permutations of a string](./Algorithms/Strings/Permutation.cs)
 
----
-
 ## Другие алгоритмы
 
 - [Other](./Algorithms/Other)
@@ -526,8 +460,6 @@
     - [Geofencing](./Algorithms/Other/Geofence.cs)
     - [Triangulation Algorithm](./Algorithms/Other/Triangulator.cs)
 
----
-
 ## Алгоритмические задачи
 
 - [Problems](./Algorithms/Problems)
@@ -539,28 +471,20 @@
     - [Accepter](./Algorithms/Problems/StableMarriage/Accepter.cs)
     - [Proposer](./Algorithms/Problems/StableMarriage/Proposer.cs)
 
----
-
 ### N-Queens
 
 - [N-Queens](./Algorithms/Problems/NQueens)
     - [Backtracking](./Algorithms/Problems/NQueens/BacktrackingNQueensSolver.cs)
-
----
 
 ### Knight Tour
 
 - [Knight Tour](./Algorithms/Problems/KnightTour/)
     - [Open Knight Tour](./Algorithms/Problems/KnightTour/OpenKnightTour.cs)
 
----
-
 ### Раскраска графа
 
 - [Graph Coloring](./Algorithms/Problems/GraphColoring)
     - [Backtracking Graph Coloring Solver](./Algorithms/Problems/GraphColoring/GraphColoringSolver.cs)
-
----
 
 ### Динамическое программирование
 
@@ -568,14 +492,10 @@
     - [Coin Change](./Algorithms/Problems/DynamicProgramming/CoinChange/DynamicCoinChangeSolver.cs)
     - [Levenshtein Distance](./Algorithms/Problems/DynamicProgramming/LevenshteinDistance/LevenshteinDistance.cs)
 
----
-
 ### Задача коммивояжёра
 
 - [Traveling Salesman Problem (TSP)](./Algorithms/Problems/TravelingSalesman/TravelingSalesmanSolver.cs)
     - [Brute-force and Nearest Neighbor algorithms](./Algorithms/Problems/TravelingSalesman/TravelingSalesmanSolver.cs)
-
----
 
 ### Планирование задач
 
@@ -586,31 +506,21 @@
 
 - [Data Structures](./DataStructures)
 
----
-
 ## Bag (мешок)
 
 - [Bag](./DataStructures/Bag)
-
----
 
 ## Битовый массив
 
 - [Bit Array](./DataStructures/BitArray.cs)
 
----
-
 ## Двусторонняя очередь
 
 - [Deque (Double-Ended Queue)](./DataStructures/Deque/Deque.cs)
 
----
-
 ## Временная линия
 
 - [Timeline](./DataStructures/Timeline.cs)
-
----
 
 ## Деревья сегментов
 
@@ -619,25 +529,15 @@
     - [Segment Tree Multiplication](./DataStructures/SegmentTrees/SegmentTreeApply.cs)
     - [Segment Tree Update](./DataStructures/SegmentTrees/SegmentTreeUpdate.cs)
 
----
-
 ## Деревья поиска
 
 - [Binary Search Tree](./DataStructures/BinarySearchTree)
-
 - [Scapegoat Tree](./DataStructures/ScapegoatTree)
-
 - [Fenwick tree (or Binary Indexed Tree)](./DataStructures/Fenwick/BinaryIndexedTree.cs)
-
 - [AA Tree](./DataStructures/AATree)
-
 - [AVL Tree](./DataStructures/AVLTree)
-
 - [B-Tree](./DataStructures/BTree)
-
 - [Red-Black Tree](./DataStructures/RedBlackTree)
-
----
 
 ## Стек
 
@@ -645,8 +545,6 @@
     - [Array-based Stack](./DataStructures/Stack/ArrayBasedStack.cs)
     - [List-based Stack](./DataStructures/Stack/ListBasedStack.cs)
     - [Queue-based Stack](./DataStructures/Stack/QueueBasedStack.cs)
-
----
 
 ## Кучи (Heap)
 
@@ -656,8 +554,6 @@
     - [Fibonacci Heap](./DataStructures/Heap/FibonacciHeap/FibonacciHeap.cs)
     - [Pairing Heap](./DataStructures/Heap/PairingHeap/PairingHeap.cs)
 
----
-
 ## Вероятностные структуры данных
 
 - [Probabilistic](./DataStructures/Probabilistic)
@@ -665,16 +561,12 @@
     - [Count-Min Sketch](./DataStructures/Probabilistic/CountMinSketch.cs)
     - [HyperLogLog](./DataStructures/Probabilistic/HyperLogLog.cs)
 
----
-
 ## Очереди
 
 - [Queue](./DataStructures/Queue)
     - [Array-based Queue](./DataStructures/Queue/ArrayBasedQueue.cs)
     - [List-based Queue](./DataStructures/Queue/ListBasedQueue.cs)
     - [Stack-based Queue](./DataStructures/Queue/StackBasedQueue.cs)
-
----
 
 ## Связанные списки
 
@@ -684,50 +576,34 @@
     - [Skip List](./DataStructures/LinkedList/SkipList/SkipList.cs)
     - [Circular Linked List](./DataStructures/LinkedList/CircularLinkedList/CircularLinkedList.cs)
 
----
-
 ## Графы
 
 - [Graph](./DataStructures/Graph)
     - [Directed Weighted Graph Via Adjacency Matrix](./DataStructures/Graph/DirectedWeightedGraph.cs)
 
----
-
 ## Непересекающиеся множества
 
 - [Disjoint Set](./DataStructures/DisjointSet)
-
----
 
 ## Отсортированный список
 
 - [SortedList](./DataStructures/SortedList.cs)
 
----
-
 ## Инвертированный индекс
 
 - [Inverted index](./DataStructures/InvertedIndex.cs)
-
----
 
 ## Unrolled Linked List
 
 - [Unrolled linked list](./DataStructures/UnrolledList/UnrolledLinkedList.cs)
 
----
-
 ## Trie (префиксное дерево)
 
 - [Tries](./DataStructures/Tries/Trie.cs)
 
----
-
 ## Хеш-таблица
 
 - [HashTable](./DataStructures/Hashing/HashTable.cs)
-
----
 
 ## Кэш
 
